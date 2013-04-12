@@ -103,8 +103,6 @@ $('#generateButton').click(function() {
   parts.push(middleParts[Math.floor(Math.random() * (middleParts.length))]);
   parts.push(postfixParts[Math.floor(Math.random() * (postfixParts.length))]);
 
-  console.log(parts);
-
   parts.forEach(function(part) {
     className += part;
     });
